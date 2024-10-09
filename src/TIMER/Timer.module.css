@@ -1,0 +1,71 @@
+.main {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.heading {
+    color: white;
+    font-size: 6em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.inputs input {
+    height: 3em;
+    text-transform: capitalize;
+    width: 14vh;
+    font-size: 1.4em;
+    /* display: flex;
+    align-items: center; */
+    border: none;
+    text-align: center;
+    outline: none;
+    /* justify-content: center; */
+    background-color: white;
+}
+
+.inputs p {
+    height: 3em;
+    text-transform: capitalize;
+    width: 14vh;
+    font-size: 1.4em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: rgb(106, 106, 106);
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 3em;
+}
+button{
+    font-size: 1.4em;
+    padding: 0.9em;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.footer{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 3%;
+    font-size: 1.3em;
+    left: 43%;
+}
